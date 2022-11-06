@@ -5,9 +5,9 @@ import { VscExtensions, VscFiles, VscGithub, VscMenu, VscSearch, VscSourceContro
 
 const Layout = ({ children }) => {
     return ( 
-        <div className="h-screen w-full grid bg-black ">
-            <div className="flex">
-                <nav className="w-[4.5rem] flex flex-col gap-8 py-4">
+        <div className="md:h-screen w-full grid bg-black ">
+            <div className="md:flex">
+                <nav className="w-[4.5rem] hidden md:flex flex-col gap-8 py-4">
                     <button className="place-items-center grid text-white/70">
                         <span>
                             <VscMenu size={25} />

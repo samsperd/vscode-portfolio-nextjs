@@ -1,6 +1,6 @@
 const LayoutTwo = ({ children }) => {
     return ( 
-        <div className="grid grid-cols-5">
+        <div className="md:grid grid-cols-5">
             <nav className="bg-gray-500">
                 Files
             </nav>
