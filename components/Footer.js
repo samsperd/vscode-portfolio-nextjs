@@ -2,7 +2,7 @@ import { VscBell, VscCheckAll, VscError, VscFeedback, VscSourceControl, VscSync,
 
 const Footer = () => {
     return ( 
-        <footer className="bg-blue-700 text-white h-6 fixed bottom-0 left-0 right-0 md:px-4 px-1">
+        <footer className="bg-[#007acc] text-white h-6 fixed bottom-0 left-0 right-0 md:px-4 px-1">
             <div className="flex items-center h-full">
                 <div className="flex flex-1 items-center text-sm gap-3">
                     <span className="flex items-center justify-center text-sm px-2 hover:bg-blue-700/60 gap-1 h-full">

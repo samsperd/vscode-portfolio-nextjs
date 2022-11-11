@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
     return ( 
         <div className="h-screen w-full">
             <div className="flex md:flex-row flex-col h-full w-full">
-                <nav className="md:w-[4.5rem] h-[4.5rem] px-4 md:px-0 md:h-full w-full flex md:flex-col md:justify-between gap-7 py-4 overflow-x-auto overflow-y-hidden text-white/70 bg-black">
+                <nav className="md:w-[4.5rem] h-[4.5rem] px-4 md:px-0 md:h-full w-full flex md:flex-col md:justify-between gap-7 py-4 overflow-x-auto overflow-y-hidden text-white/70 bg-[#333333]">
                     <div className="flex-1 flex md:flex-col gap-7">
 
                         <button className="place-items-center grid">
